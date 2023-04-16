@@ -18,7 +18,10 @@
 
   ## Usage
   Use "node index.js" then follow the prompts.
-  [!Walkthough Video](./assets/Untitled_%20Apr%2015%2C%202023%2010_39%20PM.webm)
+
+  
+  [Untitled_ Apr 15, 2023 10_39 PM.webm](https://user-images.githubusercontent.com/107372103/232263697-69eca57e-fb58-4d38-8ea6-6d98bb6990b8.webm)
+
 
   ## License
   Licensed under the following license: (https://opensource.org/licenses/MIT)
