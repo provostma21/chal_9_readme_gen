@@ -12,11 +12,6 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'link',
-        message: 'What is you GitHub Repository Link for the project?',
-    },
-    {
-        type: 'input',
         name: 'email',
         message: 'What is your email address?',
     },
@@ -71,7 +66,7 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer
-    .createPromptModule(questions)
+    .prompt(questions)
     .then(response => {
         writeToFile('ReadMeSample.md', generateMarkdown(response));
     })
